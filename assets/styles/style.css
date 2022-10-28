@@ -15,17 +15,30 @@ body {
     padding: 3rem;
 }
 
-#display-becode-rules-button, #name-input, .button {
+footer {
+    margin-top: auto;
+    border-top: 3px solid white;
+}
+
+#display-becode-rules-button, #name-input, .button, #country-select {
     width: 20%;
+    height: 3rem;
+    font-size: 1rem;
     background-color: orange;
     color: black;
+    font-weight: bold;
+    border: none;
 }
 
 .input {
     margin-bottom: 1rem;
 }
 
-footer {
-    margin-top: auto;
-    border-top: 3px solid white;
+#country-select {
+    color: black;
+
+}
+
+div {
+    margin-top: 1rem;
 }

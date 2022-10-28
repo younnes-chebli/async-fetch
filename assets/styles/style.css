@@ -13,14 +13,16 @@ body {
     min-height: 100vh;
     max-width: 100vw;
     padding: 3rem;
-    display: flex;
-    flex-direction: column;
 }
 
-#display-becode-rules-button {
-    width: 10%;
+#display-becode-rules-button, #name-input, .button {
+    width: 20%;
     background-color: orange;
     color: black;
+}
+
+.input {
+    margin-bottom: 1rem;
 }
 
 footer {

@@ -17,6 +17,12 @@ body {
     flex-direction: column;
 }
 
+#display-becode-rules-button {
+    width: 10%;
+    background-color: orange;
+    color: black;
+}
+
 footer {
     margin-top: auto;
     border-top: 3px solid white;
